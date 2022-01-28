@@ -1,0 +1,121 @@
+body {
+  background-image: url("pure-css-snow-animation.gif");
+  background-position: repeat;
+  margin: auto;
+}
+.todo {
+  width: 100%;
+}
+.todo-task {
+  color: rgb(22, 22, 22);
+  font-size: medium;
+}
+tr :hover {
+  box-shadow: 0.5px 1px 0px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+/* tbody :nth-child(even) {
+    background-color: rgb(212, 228, 228);
+  } */
+
+.todo-heading {
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: aliceblue;
+  font-size: large;
+  padding-left: 20%;
+  margin: 5px;
+  text-decoration: underline;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: wheat;
+  border-spacing: 10px;
+}
+
+th,
+td {
+  text-align: left;
+  width: 14%;
+}
+
+td {
+  background-color: white;
+  height: 7vh;
+}
+.todo-table-done-head {
+  max-width: 0.5%;
+
+  background-color: #1296e3;
+  padding-top: 2px;
+  box-shadow: 2px 0px 2px 1px #888888;
+}
+.todo-table-done {
+  max-width: 0.5%;
+
+  background-color: whitesmoke;
+  padding-top: 2px;
+  box-shadow: 5px 0px 3px 1px #888888;
+}
+.todo-table-done-div {
+  width: 100%;
+  background-color: #1296e3;
+  padding-top: 1px;
+  height: 95%;
+  box-shadow: 5px 2px 3px 3px #888888;
+}
+.todo-table-td-div:hover {
+  background-color: #03fcbe;
+}
+.todo-add-button {
+  border: none;
+  text-align: center;
+  justify-content: center;
+  width: 20%;
+  height: 30px;
+  font-size: larger;
+  color: aliceblue;
+  background-color: #f2a827;
+  margin-left: 40%;
+  position: fixed;
+  bottom: 10px;
+  align-items: center;
+}
+
+.todo-table-head {
+  background-image: linear-gradient(to right, #03dbfc, #03fcbe, #24a4b3);
+  height: 5vh;
+  color: #112021;
+}
+
+.todo-action-td {
+  padding-left: 2px;
+}
+.todo-action-button {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  background-color: #45d9b4 !important;
+  border-radius: 5px;
+  border-color: #45d9b4;
+}
+
+.editrow-textarea {
+  overflow: auto;
+  width: 100%;
+  height: 48px;
+}
+.todo-textarea {
+  max-width: 30px;
+  overflow: auto;
+  max-height: fit-content;
+}
+.todo-table-td-div {
+  padding-top: 2px;
+  border-radius: 2px;
+  background-color: #ebf1f2;
+  box-shadow: 5px 2px 3px 2px #888888;
+  height: 70%;
+}

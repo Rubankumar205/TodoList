@@ -1,0 +1,71 @@
+body {
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+#show-button,
+#home-page-button {
+  width: 10%;
+  height: 30px;
+  background-color: aqua;
+  color: rgb(20, 20, 88);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#whole-page {
+  display: flex;
+}
+#list-of-todos {
+  width: 40%;
+  height: 100vh;
+  background-color: #e3e4e6;
+  padding: 10px;
+  border: none;
+  box-shadow: 0px -10px 5px 2px #e3e4e6;
+}
+#ind-todo {
+  width: 60%;
+  height: 100vh;
+  padding: 10px;
+  background-image: url("pure-css-snow-animation.gif");
+  background-position: repeat;
+  box-shadow: -3px -10px 5px 2px #333232;
+  border: none;
+  color: #f5f6f7;
+}
+.task-div:hover {
+  background-color: red;
+}
+.text-node {
+  display: block;
+  width: 80;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5px;
+  height: 5%;
+  background-color: #fcf5f5;
+  opacity: 0.8;
+  color: rgb(46, 48, 49);
+  border-style: solid;
+  border-width: 2px;
+}
+
+.task-div {
+  background-color: aliceblue;
+  width: 80%;
+  height: 7%;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 3px 3px 2px #b6baba;
+  border-spacing: 10px;
+  margin-top: 15px;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* justify-content: space-around; */
+}
