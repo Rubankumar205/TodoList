@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="/CSS/TodoForm.css">
+    <script defer  src="/JS/TodoForm.js" ></script>
+
+</head>
+<body>
+    <div  id='todoform' class='todoform'>
+        <div id="todoform-heading" class="todoform-heading">ADD TODO LIST </div>
+        <input class='todoform-input' required type="text" value="ru"  placeholder='Add Task...' />
+        <div class='todoform-label-heading'>Start Date : </div>
+        <input id="todoform-start-date" class='todoform-date ' value="2022-01-01" required type="date" date-format=' DD MM YYYY' />
+        <div class='todoform-label-heading'>End Date : </div>
+        <input id="todoform-end-date" class='todoform-date' value="2022-01-02" required type="date"  />
+        <div class="todoform-label-heading">
+            <label for="Priority">Priority </label>
+            <select class="todoform-select" >
+                <option value="High">High</option>
+                <option value="Low">Low</option>
+            </select>
+        </div>
+        <textarea class="todoform-textarea" cols="30" rows="5" placeholder='Add Comments...' ></textarea>
+        <button  id="addTask" onclick="showResults()" class='todoform-button' >Add Task</button>
+        <button class='todoform-button' onclick="todoListPage()" >Todo List</button>
+        <button class='todoform-button' onclick="newFormatPage()" >New Format</button>
+        <div id="todoform-message">
+            <div></div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

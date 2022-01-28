@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="/CSS/TodoList.css">
+</head>
+<body>
+    <div class="todo">
+      <button onclick="showTodo()" id="todo-show-button" >Show Todo List</button>
+        <table class="todo-table">
+            <thead class="todo-table-head">
+                <tr>
+                  <th class="todo-table-done-head"></th>
+                    <th>Task Name</th>
+                    <th>Creation Date</th>
+                    <th class="todo-table-head-date">Start date</th>
+                    <th >Priority</th>
+                    <th>End Date</th>
+                    <th>Comments</th>
+                    <th>Actions</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="todo-body" >
+              
+            </tbody>
+            
+        </table>
+        
+        <button onclick="todoFormPage()" class="todo-add-button">Add Task</button>
+
+        <script src="/JS/TodoList.js" ></script>
+        
+    </div>
+
+</body>
+</html>
